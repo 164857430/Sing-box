@@ -1,10 +1,10 @@
 #!/bin/bash  
-export UUID=${UUID:-'8e0a5355-dc75-417b-a53c-96ff3f5ac158'} # 哪吒v1,在不同的平台部署需要改UUID，否则会覆盖
+export UUID=${UUID:-'1d12e0d6-7859-42c1-8660-faf10d5a5262'} # 哪吒v1,在不同的平台部署需要改UUID，否则会覆盖
 export NEZHA_SERVER=${NEZHA_SERVER:-'nginx.hii.pp.ua:80'}       # v1哪吒填写形式：nezha.abc.com:8008,v0哪吒填写形式：nezha.abc.com
 export NEZHA_PORT=${NEZHA_PORT:-''}           # v1哪吒不要填写这个,v0哪吒agent端口为{443,8443,2053,2083,2087,2096}其中之一时自动开启tls
 export NEZHA_KEY=${NEZHA_KEY:-'sSS4zjyBhxT8fmEiCyqdliHSrVvV5gze'}             # v1的NZ_CLIENT_SECRET或v0的agent密钥
 export ARGO_DOMAIN=${ARGO_DOMAIN:-'ladein.hii.pp.ua'}         # 固定隧道域名,留空即启用临时隧道
-export ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"7bb322966e0fe839f81391ed76cae6c5","TunnelSecret":"xfs0hiiSc/wcfuINkuKkNEikVHPUr2/TqM0ai0Y9E9U=","TunnelID":"03936c92-899d-4921-87d6-823c533003e7","Endpoint":""}'}             # 固定隧道token或json,留空即启用临时隧道
+export ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"7bb322966e0fe839f81391ed76cae6c5","TunnelSecret":"w6RKnqgZ2tk+6mM0nMHnOcxCuHJxyBgXACSZAkOlp68=","TunnelID":"f9aa3ad6-e591-41a1-af8c-b22e0d11c70d","Endpoint":""}'}             # 固定隧道token或json,留空即启用临时隧道
 export CFIP=${CFIP:-'time.is'}        # argo节点优选域名或优选ip
 export CFPORT=${CFPORT:-'443'}                # argo节点端口 
 export NAME=${NAME:-'in'}                    # 节点名称  
