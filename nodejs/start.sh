@@ -4,7 +4,7 @@ export NEZHA_SERVER=${NEZHA_SERVER:-'nginx.hii.pp.ua:80'}       # v1哪吒填写
 export NEZHA_PORT=${NEZHA_PORT:-''}           # v1哪吒不要填写这个,v0哪吒agent端口为{443,8443,2053,2083,2087,2096}其中之一时自动开启tls
 export NEZHA_KEY=${NEZHA_KEY:-'sSS4zjyBhxT8fmEiCyqdliHSrVvV5gze'}             # v1的NZ_CLIENT_SECRET或v0的agent密钥
 export ARGO_DOMAIN=${ARGO_DOMAIN:-'ladejp.hii.pp.ua'}         # 固定隧道域名,留空即启用临时隧道
-export ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"7bb322966e0fe839f81391ed76cae6c5","TunnelSecret":"Zr53R3uS/1jiKKlVmYV9fKPWE1Xd8RKS2Qoid35eUXk=","TunnelID":"eb521832-fa0d-4098-becd-78f953fee7bc","Endpoint":""}'}             # 固定隧道token或json,留空即启用临时隧道
+export ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"7bb322966e0fe839f81391ed76cae6c5","TunnelSecret":"z1AtSRATEP+rOQgqZ8nsDgVoFiB/ATK8ilaY9Y0VgLg=","TunnelID":"11391eab-9845-4c7e-8b08-69c2072d7531","Endpoint":""}'}             # 固定隧道token或json,留空即启用临时隧道
 export CFIP=${CFIP:-'time.is'}        # argo节点优选域名或优选ip
 export CFPORT=${CFPORT:-'443'}                # argo节点端口 
 export NAME=${NAME:-'JP'}                    # 节点名称  
