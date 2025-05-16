@@ -1,13 +1,13 @@
 #!/bin/bash  
-export UUID=${UUID:-'74b749b8-4f12-4896-a56d-977e67c395f2'} # 哪吒v1,在不同的平台部署需要改UUID，否则会覆盖
+export UUID=${UUID:-'e1a32958-0879-4d1b-bcea-b8dc7610efbb'} # 哪吒v1,在不同的平台部署需要改UUID，否则会覆盖
 export NEZHA_SERVER=${NEZHA_SERVER:-'nginx.hii.pp.ua:80'}       # v1哪吒填写形式：nezha.abc.com:8008,v0哪吒填写形式：nezha.abc.com
 export NEZHA_PORT=${NEZHA_PORT:-''}           # v1哪吒不要填写这个,v0哪吒agent端口为{443,8443,2053,2083,2087,2096}其中之一时自动开启tls
 export NEZHA_KEY=${NEZHA_KEY:-'sSS4zjyBhxT8fmEiCyqdliHSrVvV5gze'}             # v1的NZ_CLIENT_SECRET或v0的agent密钥
-export ARGO_DOMAIN=${ARGO_DOMAIN:-'ladesg.hii.pp.ua'}         # 固定隧道域名,留空即启用临时隧道
-export ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"7bb322966e0fe839f81391ed76cae6c5","TunnelSecret":"6Nn69gq2NBugNOy7Z5G111s4RJWm7XCJlT4pDjoOCVQ=","TunnelID":"dd8808ce-574b-4f4d-9dfa-0107bf218afd","Endpoint":""}'}             # 固定隧道token或json,留空即启用临时隧道
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'ladenl.hii.pp.ua'}         # 固定隧道域名,留空即启用临时隧道
+export ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"7bb322966e0fe839f81391ed76cae6c5","TunnelSecret":"zscvjcqxWaYvbpOPIdDgGxP//GLnYeIlQwjVfGW/B9I=","TunnelID":"0f1ebb7e-e99a-4efd-abda-2649684f75f9","Endpoint":""}'}             # 固定隧道token或json,留空即启用临时隧道
 export CFIP=${CFIP:-'time.is'}        # argo节点优选域名或优选ip
 export CFPORT=${CFPORT:-'443'}                # argo节点端口 
-export NAME=${NAME:-'SG'}                    # 节点名称  
+export NAME=${NAME:-'NL'}                    # 节点名称  
 export FILE_PATH=${FILE_PATH:-'./.npm'}       # sub 路径  
 export ARGO_PORT=${ARGO_PORT:-'8001'}         # argo端口 使用固定隧道token,cloudflare后台设置的端口需和这里对应
 export TUIC_PORT=${TUIC_PORT:-'40000'}        # Tuic 端口，支持多端口玩具可填写，否则不动
